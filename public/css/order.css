@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #eee;
+}
+
+.btn-group > .dropdown-menu > a {
+    text-decoration: none;
+}
+
+.main-title {
+    font-size: 28px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-family: "Merriweather", serif;
+    font-weight: 500;
+}
+
+.card {
+    box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+}
+
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.5rem 1.5rem;
+}
+
+.panel-order .row {
+    border-bottom: 1px solid #ccc !important;
+}
+.panel-order .row:last-child {
+    border: 0px !important;
+}
+.panel-order .row .col-md-1 {
+    text-align: center !important;
+    padding-top: 15px !important;
+}
+.panel-order .row .col-md-1 img {
+    width: 300px !important;
+    max-height: 300px !important;
+}
+.panel-order .row .row {
+    border-bottom: 0 !important;
+}
+.panel-order .row .col-md-11 {
+    border-left: 1px solid #ccc !important;
+}
+.panel-order .row .row .col-md-12 {
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
+}
+.panel-order .row .row .col-md-12:last-child {
+    font-size: 11px !important;
+    color: #555 !important;
+    background: #efefef !important;
+}
+.panel-order .btn-group {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.panel-order .panel-body {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+.panel-order .panel-deading {
+    margin-bottom: 0 !important;
+}
+
+.panel-body > .row {
+    background-color: white !important;
+}
+
+ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.collapse-pilih-bank {
+    width: auto;
+    margin-left: 45px;
+}
+
+#collapseCC > div > .form-check {
+    padding-left: 10px !important;
+}
+
+.divider {
+    width: auto;
+    height: 2px;
+    margin: 10px 0;
+    background-color: grey;
+}
+
+.no-rek {
+    color: red;
+}
+
+.salin-rek {
+    text-transform: uppercase;
+    color: green;
+}
+
+.note {
+    color: green;
+}
+
+.content-cod {
+    width: auto;
+    margin-left: 30px;
+    color: red;
+}
+
+.accordion-body {
+    padding-top: 0 !important;
+    padding-left: 40px;
+}
+
+div.accordion-item > h2 > div > label.form-check-label {
+    cursor: pointer;
+}
+
+/* petunjuk */
+
+div#container-petunjuk {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+#accordionPetunjuk {
+    margin: 20px 0;
+}
+#accordionPetunjuk .item {
+    margin: 0;
+}
+#accordionPetunjuk .item:hover {
+    margin: 0;
+    border-bottom: 2.5px solid black;
+}
+
+.t-p {
+    color: black;
+    padding: 10px 30px 0px 30px;
+    margin-bottom: 20px;
+}
+#accordionPetunjuk .item .item-header h2 button.btn.btn-link {
+    background: whitesmoke;
+    color: black;
+    border-radius: 0px;
+    font-family: "Poppins";
+    font-size: 16px;
+    font-weight: 400;
+    /* line-height: 2.5; */
+    text-decoration: none;
+}
+#accordionPetunjuk .item .item-header {
+    border-bottom: none;
+    background: transparent;
+    padding: 0px;
+    margin: 2px;
+}
+
+#accordionPetunjuk .item .item-header > h2 > button.btn.btn-link {
+    color: black;
+    font-size: 20px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+#accordionPetunjuk
+    .item
+    .item-header
+    > h2
+    > button.btn.btn-link
+    > img.title-accordion-petunjuk {
+    float: right;
+    color: green;
+    width: 18px;
+    display: flex;
+}
+
+#accordionPetunjuk
+    .item
+    .item-header
+    > h2
+    > button.btn.btn-link.collapsed
+    > img.title-accordion-petunjuk {
+    transform: rotate(0deg);
+}
+
+#accordionPetunjuk
+    .item
+    .item-header
+    > h2
+    > button.btn.btn-link
+    > img.title-accordion-petunjuk {
+    transform: rotate(180deg);
+    transition: 0.25s;
+}
+/* tutup petunjuk */
+
+div.row > div.col-md-1 > div.order-detail > span[title="order detail"] {
+    color: rgb(21, 156, 156) !important;
+    font-size: 0.8rem !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+}
+
+/* modal detail data pemesanan */
+div.fade.modal#ModalDetailDataPemesanan {
+    font-family: "Quicksand", sans-serif;
+}
+
+.close:focus {
+    outline: 1px dotted #fff !important;
+}
+
+.modal-body.detail {
+    padding: 0rem !important;
+}
+
+.modal-title {
+    color: #ffffff;
+}
+
+.modal-header {
+    background: black;
+    color: #fff !important;
+}
+
+.fa-close {
+    color: #fff;
+}
+
+.heading {
+    font-weight: 500 !important;
+}
+
+.subheadings {
+    font-size: 12px;
+    color: black;
+}
+
+.dots {
+    height: 10px;
+    width: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.gallery img {
+    margin-right: 10px;
+}
+
+.fs-9 {
+    font-size: 9px;
+}
+
+/* style discont strikethrough */
+span.strikethrough {
+    position: relative;
+}
+span.strikethrough:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 50%;
+    right: 0;
+    border-top: 1px solid;
+    border-color: inherit;
+
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+}
+
+.badgebox {
+    opacity: 0;
+}
+
+.badgebox + .badge {
+    text-indent: -999999px;
+    width: 27px;
+}
+
+.badgebox:focus + .badge {
+    box-shadow: inset 0px 0px 5px;
+}
+
+.badgebox:checked + .badge {
+    /* Move the check mark back when checked */
+    text-indent: 0;
+}
+
+/* modal */
+
+.program-modal .modal-dialog {
+    margin: 1rem;
+    max-width: 100vw !important;
+}
+.program-modal .modal-content {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    /* text-align: center; */
+    /* font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+    /* font-family: "My Soul", cursive; */
+    font-family: "Merriweather", serif;
+}
+.program-modal .modal-content h2,
+.program-modal .modal-content .h2 {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+}
+.program-modal .modal-content p.item-intro {
+    font-style: italic;
+    margin-bottom: 2rem;
+}
+.program-modal .modal-content ul.list-inline {
+    margin-bottom: 2rem;
+}
+.program-modal .modal-content img {
+    margin-bottom: 2rem;
+}
+.program-modal .close-modal {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+.program-modal .close-modal:hover {
+    opacity: 0.3;
+}
+
+.pembagi {
+    height: 3px;
+    background: #921515;
+    margin-bottom: 1rem;
+}
+
+#loading {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("https://i.stack.imgur.com/MnyxU.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    .panel-order .row .col-md-1 img {
+        width: 300px;
+        max-height: 300px;
+    }
+}

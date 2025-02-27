@@ -1,0 +1,177 @@
+body {
+    background: #f5f5dc !important; /* Màu nền kem */
+}
+
+.container-fluid {
+    background: #f5f5dc; /* Màu nền kem */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #d2b48c; /* Màu kem */
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-dark {
+    background: linear-gradient(90deg, #d2b48c, #fff, #d2b48c);
+    background-size: 200% 200%;
+    color: #fff;
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-position 0.3s ease, color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-position: -200% 0;
+    color: #000;
+}
+body {
+    background: #f5f5dc !important; /* Màu nền kem */
+}
+
+.container-fluid {
+    background: #f5f5dc; /* Màu nền kem */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #d2b48c; /* Màu kem */
+    color: #fff;
+    border-radius: 5px;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 5px;
+}
+
+.btn-dark {
+    background: linear-gradient(90deg, #d2b48c, #fff, #d2b48c);
+    background-size: 200% 200%;
+    color: #fff;
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-position 0.3s ease, color 0.3s ease;
+}
+
+.btn-dark:hover {
+    background-position: -200% 0;
+    color: #000;
+}
+body {
+    background: #f5f5dc !important; /* Màu nền kem */
+}
+
+.container-fluid {
+    background: #f5f5dc; /* Màu nền kem */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    background-color: #d2b48c; /* Màu kem */
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+.card-body {
+    background-color: #fff;
+    border-radius: 0 0 10px 10px;
+}
+
+table.dataTable thead {
+    background-color: #d2b48c; /* Màu kem */
+    color: #fff;
+}
+
+table.dataTable tbody tr {
+    transition: background-color 0.3s ease;
+}
+
+table.dataTable tbody tr:hover {
+    background-color: #f5f5dc; /* Màu nền kem */
+}
+
+.btn-secondary {
+    background: linear-gradient(90deg, #d2b48c, #fff, #d2b48c);
+    background-size: 200% 200%;
+    color: #fff;
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    transition: background-position 0.3s ease, color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-position: -200% 0;
+    color: #000;
+}
+
+/* CSS cho phần tử show và search */
+.dataTables_length, .dataTables_filter {
+    margin-bottom: 20px;
+}
+
+.dataTables_length select, .dataTables_filter input {
+    border: 2px solid #d2b48c;
+    border-radius: 5px;
+    padding: 5px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.dataTables_length select:focus, .dataTables_filter input:focus {
+    border-color: #8b4513;
+    box-shadow: 0 0 5px rgba(139, 69, 19, 0.5);
+    outline: none;
+}
